@@ -1,0 +1,13 @@
+html {
+    margin: 0;
+    padding: 0;
+}    
+body {
+    font-size: 14px;
+    font-family: 'Open Sans';
+    color: #fff;
+}
+a, a:hover {
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
