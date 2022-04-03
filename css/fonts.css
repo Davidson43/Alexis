@@ -5,6 +5,12 @@
 	font-style: normal;
 	src: url("../fonts/LibreBaskerville-Bold.woff2") format("woff2"), url("../fonts/LibreBaskerville-Bold.woff") format("woff");
   }
+
+  @font-face {
+	font-family: "LibreBaskerville-Regular";
+	font-style: normal;
+	src: url("../fonts/LibreBaskerville-Regular.woff2") format("woff2"), url("../fonts/LibreBaskerville-Regular.woff") format("woff");
+  }  
   
   @font-face {
 	font-family: "Poppins-Regular";

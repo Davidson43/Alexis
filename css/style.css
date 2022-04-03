@@ -4,10 +4,109 @@ html {
 }    
 body {
     font-size: 14px;
-    font-family: 'Open Sans';
+    font-family: "Poppins-Regular";
     color: rgb(0, 0, 0);
 }
 a, a:hover {
     text-decoration: none;
     transition: all ease 0.3s;
+}
+
+.header {
+    height: 850px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(38, 39, 50, 0.85)), to(rgba(38, 39, 50, 0.85))), url('../img/header.jpg');
+	background-image: -o-linear-gradient(left, rgba(38, 39, 50, 0.85), rgba(38, 39, 50, 0.85)), url('../img/header.jpg');
+	background-image: linear-gradient(to right, rgba(38, 39, 50, 0.85), rgba(38, 39, 50, 0.85)), url('../img/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    font-family: "Poppins-Medium";
+}
+.menu {
+    height: 75px;
+    background-color: #ffffff;
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    
+}
+.inner-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo {
+
+}
+.list-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.item-menu {
+    padding: 0 0 0 1.5em;
+    text-transform: capitalize;
+}
+.link-menu {
+    color: #272727;
+}
+.link-menu:hover {
+    color: #a5a4a4;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 13em;
+}
+h1 {
+    font-family: "LibreBaskerville-Regular";
+    color: #ffffff;
+    font-size: 4em;
+    width: 60%;
+    align-self: center;
+}
+.main-button {
+    background-color: #fc5f45;
+    border-radius: 50px;
+    border: #fc5f45 solid 1px;
+    padding: 0.8em 3em;
+    font-family: "Poppins-Medium";
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.2em;
+    margin: 3em 0;
+    align-self: center;
+}
+.main-button:hover {
+    background-color: transparent;
+    color: #ffffff;
+}
+.features {
+    text-transform: uppercase;
+    display: flex;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: "Poppins-Medium";
+    justify-content: center;
+}
+.features-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 250px;
+}
+.features-item img {
+    margin-bottom: 2em;
+}
+.features-green {
+    color: #38c695;
+}
+.features-violet {
+    color: #b27cf5;
+}
+.features-orange {
+    color: #feb960;
 }
