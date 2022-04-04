@@ -11,7 +11,7 @@ a, a:hover {
     text-decoration: none;
     transition: all ease 0.3s;
 }
-
+/*HEADER---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .header {
     height: 850px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(38, 39, 50, 0.85)), to(rgba(38, 39, 50, 0.85))), url('../img/header.jpg');
@@ -35,9 +35,6 @@ a, a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.nav-logo {
-
 }
 .list-menu {
     padding: 0;
@@ -109,4 +106,59 @@ h1 {
 }
 .features-orange {
     color: #feb960;
+}
+/*ABOUT-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.about {
+    padding: 10em 0;
+}
+h3 {
+    font-family: "LibreBaskerville-Bold";
+    font-size: 3em;
+    padding-bottom: 0.5em;
+}
+.about-inner {
+    display: flex;
+    align-items: center;
+}
+.about-img {
+    width: 100%;
+}
+.col-left {
+    flex-basis: 50%;
+}
+.col-right {
+    flex-basis: 50%;
+}
+.right-about-block {
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    padding: 7em 5em;
+    position: relative;
+}
+.right-about-block p {
+    line-height: 2em;
+}
+.color-line {
+    height: 3px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+.color-item {
+    flex-basis: 25%;
+}
+.color-item:nth-child(1) {
+    background-color: #fc5f45;
+}
+.color-item:nth-child(2) {
+    background-color: #38c695;
+}
+.color-item:nth-child(3) {
+    background-color: #b27cf5;
+}
+.color-item:nth-child(4) {
+    background-color: #feb960;
 }
