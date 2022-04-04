@@ -108,13 +108,15 @@ h1 {
     color: #feb960;
 }
 /*ABOUT-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-.about {
+.about,
+.focus {
     padding: 10em 0;
 }
 h3 {
     font-family: "LibreBaskerville-Bold";
     font-size: 3em;
     padding-bottom: 0.5em;
+    text-transform: capitalize;
 }
 .about-inner {
     display: flex;
@@ -162,3 +164,59 @@ h3 {
 .color-item:nth-child(4) {
     background-color: #feb960;
 }
+/*FOCUS-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.focus {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.focus-content {
+    padding: 4em 0 0 0;
+}
+.focus-item {
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    padding: 4em 1em;
+    background-color: #ffffff;
+    height: 100%;
+}
+.focus-img {
+}
+.focus-h4 {
+    padding: 1em 0;
+    text-transform: capitalize;
+}
+.focus-item-content {
+    line-height: 2em;
+}
+.focus-item-red {
+    border-bottom: #fc5f45 solid 3px;
+}
+.focus-item-green {
+    border-bottom: #38c695 solid 3px;
+}
+.focus-item-violet {
+    border-bottom: #b27cf5 solid 3px;
+}
+.focus-item-orange {
+    border-bottom: #feb960 solid 3px;
+}
+/*CUSTOM----------------------------------------------------------------------------------------------------------------------------------------*/
+.custom {
+    height: 500px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(38, 39, 50, 0.85)), to(rgba(38, 39, 50, 0.85))), url('../img/screen1.jpg');
+	background-image: -o-linear-gradient(left, rgba(38, 39, 50, 0.85), rgba(38, 39, 50, 0.85)), url('../img/screen1.jpg');
+	background-image: linear-gradient(to right, rgba(38, 39, 50, 0.85), rgba(38, 39, 50, 0.85)), url('../img/screen1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.inner-custom {
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+/*PORTFOLIO-------------------------------------------------------------------------------------------------------------------------------------*/
