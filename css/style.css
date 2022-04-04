@@ -109,7 +109,8 @@ h1 {
 }
 /*ABOUT-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .about,
-.focus {
+.focus,
+.portfolio {
     padding: 10em 0;
 }
 h3 {
@@ -220,3 +221,54 @@ h3 {
     align-items: center;
 }
 /*PORTFOLIO-------------------------------------------------------------------------------------------------------------------------------------*/
+.portfolio {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.inner-portfolio {
+    padding: 4em 0 0 0;
+}
+.portfolio-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-item img {
+    width: 100%;
+}
+.portfolio-item-desc {
+    position: absolute;
+    bottom: -70px;
+    background-color: #fff;
+    left: 0;
+    right: 0;
+    height: 70px;
+}
+.portfolio-color-line {
+    height: 3px;
+    display: flex;
+}
+.portfolio-color-item {
+    flex-basis: 25%;
+}
+.portfolio-color-item:nth-child(1) {
+    background-color: #fc5f45;
+}
+.portfolio-color-item:nth-child(2) {
+    background-color: #38c695;
+}
+.portfolio-color-item:nth-child(3) {
+    background-color: #b27cf5;
+}
+.portfolio-color-item:nth-child(4) {
+    background-color: #feb960;
+}
+.portfolio-h4 {
+    line-height: 70px;
+    color:#000000;
+    font-family: "Poppins-Medium";
+}
+.portfolio-item:hover .portfolio-item-desc {
+    bottom: 0;
+    transition: linear all 0.2s;
+}
