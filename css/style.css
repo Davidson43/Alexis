@@ -110,7 +110,8 @@ h1 {
 /*ABOUT-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .about,
 .focus,
-.portfolio {
+.portfolio,
+.team {
     padding: 10em 0;
 }
 h3 {
@@ -166,7 +167,8 @@ h3 {
     background-color: #feb960;
 }
 /*FOCUS-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-.focus {
+.focus,
+.team {
     background-color: #f7f7f7;
     text-align: center;
 }
@@ -222,7 +224,6 @@ h3 {
 }
 /*PORTFOLIO-------------------------------------------------------------------------------------------------------------------------------------*/
 .portfolio {
-    background-color: #f7f7f7;
     text-align: center;
 }
 .inner-portfolio {
@@ -271,4 +272,40 @@ h3 {
 .portfolio-item:hover .portfolio-item-desc {
     bottom: 0;
     transition: linear all 0.2s;
+}
+/*TEAM-------------------------------------------------------------------------------------------------------------------------------*/
+.owl-carousel {
+    padding: 4em 0 0 0;
+}
+.team-item {
+    background-color: #ffffff;
+    padding: 5px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.team-item img {
+    width: 100%;
+}
+.team-item h4 {
+    font-family: "Poppins-Medium";
+    padding: 0.5em 0;
+    margin: 0;
+    color: #fc5f45;
+}
+.team-item span {
+    padding: 0 0 1em 0;
+    display: inline-block;
+}
+.team-item:nth-child(1) {
+    border-bottom: 3px solid #fc5f45;
+}
+.team-item:nth-child(2) {
+    border-bottom: 3px solid #38c695;
+}
+.team-item:nth-child(3) {
+    border-bottom: 3px solid #b27cf5;
+}
+.team-item:nth-child(4) {
+    border-bottom: 3px solid #feb960;
 }
