@@ -1,5 +1,5 @@
 $(function(){
-    $('.owl-carousel').owlCarousel({
+    $('.slide-one').owlCarousel({
         loop:true,
         margin:30,
         nav:false,
@@ -23,9 +23,20 @@ $(function(){
         }
     })
 
+    $('.slide-two').owlCarousel({
+      loop:true,
+      margin:30,
+      nav:false,
+      dots: true,
+      autoplay:false,
+      autoplayTimeout:5000,
+      autoplayHoverPause:true,
+      items:1
+    })
+
     $('.button-nav').on('click', function(event) {
-		$('.nav-list').slideToggle(400);
-		event.preventDefault();
-	});
+        $('.nav-list').slideToggle(400);
+        event.preventDefault();
+	  })
 
   });
