@@ -111,7 +111,8 @@ h1 {
 .about,
 .focus,
 .portfolio,
-.team {
+.team,
+.stat {
     padding: 10em 0;
 }
 h3 {
@@ -308,4 +309,31 @@ h3 {
 }
 .team-item:nth-child(4) {
     border-bottom: 3px solid #feb960;
+}
+/*STAT-------------------------------------------------------------------------------------------------------------------------------------------*/
+.stat {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(38, 39, 50, 0.85)), to(rgba(38, 39, 50, 0.85))), url('../img/stat.jpg');
+	background-image: -o-linear-gradient(left, rgba(38, 39, 50, 0.85), rgba(38, 39, 50, 0.85)), url('../img/stat.jpg');
+	background-image: linear-gradient(to right, rgba(38, 39, 50, 0.85), rgba(38, 39, 50, 0.85)), url('../img/stat.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    color:#ffffff;
+}
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stat-item-value {
+    display: inline-block;
+    padding: 1em 0 0.5em 0;
+    font-size: 2em;
+    font-family: "Poppins-Medium";
+}
+.stat-item-text {
+    font-size: 1.2em;
+    padding: 0 0 2em 0;
+    color: #adabab;
 }
