@@ -69,17 +69,22 @@ h1 {
     background-color: #fc5f45;
     border-radius: 50px;
     border: #fc5f45 solid 1px;
-    padding: 0.8em 3em;
     font-family: "Poppins-Medium";
+    padding: 0.8em 3em;
     text-transform: uppercase;
     color: #ffffff;
     font-size: 1.2em;
-    margin: 3em 0;
     align-self: center;
 }
 .main-button:hover {
     background-color: transparent;
     color: #ffffff;
+}
+.main-button-dark:hover {
+    color: #000000;
+}
+.header-button-mrg {
+    margin: 3em 0;
 }
 .features {
     text-transform: uppercase;
@@ -112,7 +117,8 @@ h1 {
 .focus,
 .portfolio,
 .team,
-.stat {
+.stat,
+.select {
     padding: 10em 0;
 }
 h3 {
@@ -336,4 +342,47 @@ h3 {
     font-size: 1.2em;
     padding: 0 0 2em 0;
     color: #adabab;
+}
+/*SELECT---------------------------------------------------------------------------------------------------------------------------------------------*/
+.select {
+    text-align: center;
+}
+.select-list {
+    padding: 4em 0 0 0;
+}
+.select-item {
+    padding: 2em 2em;
+}
+.select-item-head {
+    display: flex;
+    align-items: stretch;
+    padding-bottom: 2em;
+}
+.select-icon {
+    padding: 0px 1em 0 0;
+}
+.select-head-col {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Poppins-Medium";
+    font-size: 1.3em;
+}
+.select-item-content {
+    text-align: left;
+    line-height: 2em;
+}
+.select-start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7em 0 0 0;
+}
+.select-start-lead {
+    padding: 0 2em;
+    font-size: 2em;
+    font-family: "Poppins-Medium";
+}
+.select-start-link {
 }
