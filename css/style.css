@@ -119,7 +119,8 @@ h1 {
 .team,
 .stat,
 .select,
-.testimonials {
+.testimonials,
+.contact {
     padding: 10em 0;
 }
 h3 {
@@ -457,4 +458,69 @@ button.owl-dot.active::before {
 button.owl-dot.active {
     border: 1px solid #fc5f45;
     position: relative;
+}
+/*CONTACT----------------------------------------------------------------------------------------------------------------------------------------------------*/
+.contact {
+    background-color: #cccccc;
+    color: #000000;
+    text-align: center;
+}
+.form-wrapp {
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.contact-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 60%;        
+}
+
+.contact-form input, .contact-form textarea {
+    -ms-flex-preferred-size: calc(33.3333% - 10px);
+    flex-basis: calc(50% - 20px);
+    margin: 10px;
+    height: 60px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 14px;
+    color: #333;
+    padding: 0 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.contact-form textarea {
+    padding: 20px;
+    -ms-flex-preferred-size: calc(100% - 10px);
+    flex-basis: calc(100% - 10px);
+    height: 120px;
+}
+
+.contact-form input[type=submit] {
+    background-color: #fc5f45;
+    border-radius: 50px;
+    border: #fc5f45 solid 1px;
+    font-family: "Poppins-Medium";
+    padding: 0.8em 3em;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.2em;
+    align-self: center;
+}
+
+.contact-form input[type=submit]:hover {
+    background-color: transparent;
+    color: #000000;
 }
