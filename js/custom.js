@@ -28,7 +28,7 @@ $(function(){
       margin:30,
       nav:false,
       dots: true,
-      autoplay:true,
+      autoplay:false,
       autoplayTimeout:5000,
       autoplayHoverPause:true,
       items:1
@@ -38,5 +38,18 @@ $(function(){
         $('.nav-list').slideToggle(400);
         event.preventDefault();
 	  })
+
+    $('.mobile-icon').on('click', function(event) {
+      $('.mobile-menu').slideToggle(400);
+      event.preventDefault();
+    });
+
+    $("a.scroll-to").on("click", function(e){
+      e.preventDefault();
+      var anchor = $(this).attr('href');
+      $('html, body').stop().animate({
+          scrollTop: $(anchor).offset().top - 75
+      }, 1200);
+  });
 
   });
