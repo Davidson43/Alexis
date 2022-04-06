@@ -524,3 +524,49 @@ button.owl-dot.active {
     background-color: transparent;
     color: #000000;
 }
+/*FOOTER-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.footer {
+    background-color: #cccccc;
+    color: #000000;
+}
+.inner-footer {
+    background-color: #3f4049;
+    padding: 4em 0;
+    position: relative;
+}
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+.footer-item-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    justify-content: flex-start;
+    font-size: 1.3em;
+    color: #ffffff;
+}
+.footer-h4 {
+    padding: 0 0 1em 0;
+}
+.footer-item p {
+    margin: 0;
+    padding: 0;
+}
+.green-style h4 {
+    color: #38c695;
+}
+.violet-style h4 {
+    color: #b27cf5;
+}
+.orange-style h4 {
+    color: #feb960;
+}
+.social a{
+    padding: 0 0.5em 0 0;
+
+}
